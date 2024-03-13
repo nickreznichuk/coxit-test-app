@@ -1,0 +1,28 @@
+.cell {
+  font-family: inherit;
+  height: 70px;
+  box-sizing: border-box;
+  font-weight: bold;
+  &__comments {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__status {
+    font-weight: normal;
+    font-family: inherit;
+    text-transform: capitalize;
+  }
+
+  &__head {
+    color: #C7C9DA;
+    font-size: 12px;
+    padding-bottom: 0;
+  }
+}
+
+.row {
+  &__head {
+  }
+}

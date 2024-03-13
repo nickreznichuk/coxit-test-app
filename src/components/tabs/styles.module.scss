@@ -1,0 +1,29 @@
+.tabs {
+  display: flex;
+  align-items: center;
+  color: #BFC2D4;
+
+  &__el {
+    padding: 20px 30px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    &:hover {
+      color: #000;
+      background-color: #fff;
+    }
+
+    &_active {
+      color: #000;
+      background-color: #fff;
+    }
+
+    &_disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+  }
+}
